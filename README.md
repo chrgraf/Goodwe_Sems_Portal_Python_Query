@@ -5,7 +5,7 @@ sample python-code to Query the Goodwe Sems-Portal via HTTPS
 Dear all,
 
 this small script provides basic building-blocks to query the GoodWe Sems-Portal.
-The token can be-reused, means subsequent calls can nake use of an existing authentication-token.
+The token can be-reused, means subsequent calls can make use of an existing authentication-token.
 If the tokes expires, the script will renew the token and continue querying the portal.
 
 ## credentials
