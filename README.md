@@ -12,16 +12,17 @@ If the tokes expires, the script will renew the token and continue querying the 
 You need to create a credentials file called: sems_config.py
 
 While Username and password (single or doublequotes are just fine) are trivial, the power-station-id is somewhat non-trivial.
-Easiest way to aquire it, is to login to via your PC,Tabltes to the Sems-Portal and look at the "resulting"URL after you looged-in successfully.
+Easiest way to aquire it, is to login to via your PC,Tablet,.. to the Sems-Portal and look at the "resulting"URL after you looged-in successfully.
 it will read: https://www.semsportal.com/PowerStation/PowerStatusSnMin/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx  
 
 Check the xxx stuff - that your ID!
 
+```
 behn@rpi5:~/jk_venv $ cat sems_config.py
 username = "<your email-Address>"
 pw = "your password on the Goodwe Sems Portal"
 power_station_id = "<aquire this from the URL as described aobve>"
-
+```
 
 # How to call:
 
@@ -75,7 +76,7 @@ Success
 # License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2024] [Christian Graf]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
